@@ -1,0 +1,32 @@
+#box{
+    width: 300px;
+    height: auto;
+    margin: 100px auto;
+    text-align: center;
+    background-color:#fff ;
+    img{
+        background-color: #fff;
+    }
+    .imgs{
+        width: 120px;
+    }
+    .am-list-item{
+        border-bottom:1px solid #ccc;
+    }
+    .am-button{
+        background-color: green;
+        
+        span{
+            background-color: green;
+            color: #fff;
+        }
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        color: green;
+        a{
+            color: green;
+        }
+    }
+}

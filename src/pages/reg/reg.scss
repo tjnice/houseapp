@@ -1,0 +1,52 @@
+#box1{
+    width: 90%;
+    height: auto;
+    padding:0 20px;
+    margin: 50px auto;
+    text-align: center;
+    background-color:#fff ;
+    .am-input-control{
+        border-bottom:1px solid #ccc;
+        padding: 5px 0;
+    }
+    .am-checkbox-input{
+        border:none !important;
+    }
+    .am-list-content{
+            font-size: 14px;
+            span{
+                color: green;
+            }
+    }
+    .am-button{
+        background-color: rgb(24, 148, 65);
+        span{
+            background-color: rgb(24, 148, 65);
+            color: #fff;
+        }
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        a{
+            color: rgb(31, 116, 31);
+        }
+    }
+    .span{
+        position: relative;
+        .spante{       
+            position: absolute;
+            right:15px;
+            top:10px;
+            z-index: 100;   
+            background-color: #eee;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+    .am-list-line::after{
+        border: none;
+        height: 0;
+    }
+    
+}
